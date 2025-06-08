@@ -3,94 +3,69 @@
 
 ---
 
-##  Module Purpose
+## 🎯 Module Purpose
 
-You’ve learned the what, when, and why — now it’s time to **lead by doing**.
+This module represents my hands-on effort to practice POA&M execution using realistic tools and data. While I haven’t yet done this in a professional job, I’ve created a structured workflow to simulate how POA&Ms are built, tracked, and closed using actual scan data formats and NIST-aligned templates.
 
-This module is where your GRC leadership becomes operational. You’ll walk through hands-on POA&M development using realistic vulnerability data and industry-grade tools.
-
->  *The best leaders don’t just assign tasks — they can build the thing themselves.*
+>  *This is where I move from theory to practice — simulating how POA&Ms are handled in the field.*
 
 ---
 
-## 🔧 What You’ll Demonstrate
+##  What I Practiced
 
-1. Review scan findings (mock ACAS/WSUS report)
-2. Identify a security weakness
-3. Populate a POA&M entry using the provided template
-4. Assign milestones, ownership, and evidence requirements
-5. Prepare for closure and audit-readiness
-
----
-
-##  Files to Use
-
-| File | Purpose |
-|------|---------|
-| 📄 [Mock WSUS ACAS SCAN.xlsx](./Mock%20WSUS%20ACAS%20SCAN.xlsx) | Source vulnerability data |
-| 📄 [Blank POA&M Template.xlsm](./Blank%20POA&M%20Template.xlsm) | Structured POA&M with macros and fields |
-
-Download and open both files. Practice converting a raw vulnerability finding into a complete POA&M record.
+- Analyzing mock vulnerability scan results  
+- Identifying risks that require a POA&M  
+- Populating a POA&M using the official field structure  
+- Assigning mock milestones and due dates  
+- Practicing how to document closure evidence  
 
 ---
 
-## 🧾 Sample Use Case
+## 🧾 Sample Scenario I Simulated
 
-**Finding:**  
-- CVE-2023-XXXX on Windows Server  
-- Severity: Critical  
-- Source: ACAS quarterly scan  
-- Impact: Remote Code Execution
+**Finding:** CVE-2023-XXXX on Windows Server  
+**Source:** Mock WSUS Vulnerability Scan  
+**Risk:** Critical  
+**System Impacted:** WIN-DC-02
 
-**POA&M Entry Example:**
+**POA&M Entry Practice:**
 
-| Field | Entry |
-|-------|-------|
-| Weakness ID | ACAS-Q3-WSUS-001 |
-| Description | CVE-2023-XXXX on WIN-DC-02 |
-| Source | ACAS Q3 Scan |
-| Impact | RCE on domain controller |
-| Scheduled Completion | 2024-09-01 |
-| Milestones | 1. Patch scheduled (08/22), 2. Retest (08/25) |
-| Owner | Server Admin Team |
-| Status | Open |
-| Evidence | Screenshot of patch & ACAS delta report |
+| Field | Example |
+|-------|---------|
+| Weakness ID | WSUS-CVE-2023-001 |
+| Description | Remote code execution vulnerability |
+| Source | Mock WSUS scan |
+| Scheduled Completion Date | 2024-09-01 |
+| Milestones | 1. Patch applied by 08/20, 2. Validation by 08/25 |
+| Status | In Progress |
+| Evidence | Placeholder for scan screenshot or remediation ticket |
 
----
-
-## 🛠 Execution Tip
-
-**Use the POA&M template’s built-in macros or filters to:**
-- Track by severity
-- Sort by due date
-- Prioritize criticals
-- Auto-flag overdue items
+This exercise helped me understand the workflow that analysts, ISSOs, and auditors follow when tracking unresolved findings.
 
 ---
 
-##  Leadership-Level Enhancements
+## 📁 Practice Files I Used
 
-- Build a dashboard (Excel, Power BI, etc.) from your POA&M data
-- Track KPIs: % closed, avg. days open, aging findings
-- Share monthly status with stakeholders or risk councils
+- 📄 [Blank POA&M Template.xlsm](./Blank%20POA&M%20Template.xlsm)  
+- 📄 [Mock WSUS ACAS SCAN.xlsx](./Mock%20WSUS%20ACAS%20SCAN.xlsx)
 
-> 📈 That’s how GRC leaders communicate risk maturity.
+These templates allowed me to practice POA&M completion, milestone tracking, and status updates — just like a real GRC analyst would.
 
 ---
 
 ##  Reflection Prompt
 
->  *Can you confidently convert scan data into a defensible, auditor-ready POA&M?*
+> ✅ *Could I take a finding from a scan and convert it into a POA&M that someone else could pick up and act on — without asking me questions?*
 
-If yes, you’re ready to lead teams and programs. If not — this module is your proving ground.
+That’s the goal of this module: clarity, structure, and accountability.
 
 ---
 
 ## 🏁 Summary
 
-- Hands-on POA&M building is a core GRC skill
-- Mastering this process turns you from analyst to advisor
-- Practice using the templates and build your real-world muscle
+- I practiced building POA&Ms from mock scan data  
+- I used NIST-based templates to simulate ownership, remediation, and closure  
+- This hands-on work helps prepare me for real GRC, compliance, or security analyst roles
 
 ---
 
