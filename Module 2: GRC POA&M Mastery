@@ -3,101 +3,64 @@
 
 ---
 
-## 🎯 Module Purpose
+##  Module Purpose
 
-This module is the **core of execution**. It’s where leadership transforms from intent to impact.
+This module focuses on understanding and practicing the **core structure of a POA&M**. As someone actively learning Governance, Risk, and Compliance (GRC), I’ve studied how POA&Ms are used to document control gaps and track remediation efforts in frameworks like **NIST RMF**, **FedRAMP**, and **FISMA**.
 
-After establishing why POA&Ms matter in Module 1, we now break down the **critical structure** of a POA&M — the fields, logic, and insights that make it not just a form… but a **risk management weapon.**
-
-> ✅ *As a leader, if you can build one solid POA&M — you can manage hundreds.*
+> ✅ *I created this module to build my own hands-on knowledge of POA&M execution.*
 
 ---
 
-##  Anatomy of a POA&M Entry
-
-Every POA&M entry is a **story of accountability** — told line by line. Here’s how each field aligns with your organization’s risk management discipline:
+## 📋 Key POA&M Fields I’ve Studied and Practiced
 
 | Field | Description |
 |-------|-------------|
-| **Weakness Identifier** | A unique name or ID for traceability |
-| **Description of Weakness** | Plain-language description of the risk or control gap |
-| **Source Identified** | Scan, assessment, audit, or manual finding |
-| **Impact Statement** | What happens if this issue is not fixed |
-| **Scheduled Completion Date** | Target resolution date |
-| **Milestones** | Step-by-step actions to achieve closure |
-| **Resources Required** | Budget, personnel, tools |
-| **Status** | Open, In Progress, Closed, Delayed |
-| **Justification for Delay** | Required for any missed milestones |
-| **Evidence of Remediation** | Screenshots, ticket IDs, test results, etc. |
-
->  **Control CA-5** (NIST SP 800-53) requires each of these fields in formal environments like FedRAMP and DoD A&A.
+| **Weakness ID** | Unique name or number for tracking |
+| **Description of Weakness** | Clear summary of the security or compliance issue |
+| **Source Identified** | Where the issue came from (e.g., scan, audit) |
+| **Impact** | Why it matters to the system or organization |
+| **Scheduled Completion Date** | Target remediation date |
+| **Milestones** | Step-by-step plan with specific dates |
+| **Resources Required** | People, tools, or approvals needed |
+| **Status** | Open, In Progress, Delayed, or Closed |
+| **Justification for Delay** | Reason for delays (if applicable) |
+| **Evidence** | Documents, screenshots, or scan data to show closure
 
 ---
 
-##  Leadership Guidance
+##  My Learning Experience
 
-> "If you want your POA&M to be respected — it must be **clear, actionable, and auditable**."
+Through self-directed training, I explored how POA&Ms are used to manage and track remediation across security programs. I reviewed federal guidance (like NIST SP 800-53, control CA-5) and practiced writing my own POA&M entries using sample scan data.
 
-As a GRC leader:
-- Never accept vague entries.
-- Require milestone logic.
-- Demand ownership assignments.
-- Set the example for clarity and precision.
-
----
-
-##  Example Entry
-
-| Field | Example |
-|-------|---------|
-| Weakness ID | WSUS-CVE-2023-001 |
-| Description | CVE-2023-XXXX identified on SQL Server 2019 |
-| Source | ACAS Vulnerability Scan |
-| Impact | Remote attacker can escalate privileges |
-| Due Date | 2024-08-30 |
-| Milestones | 1. Patch system (08/15), 2. Validate (08/25) |
-| Resources | Server Admin, Change Mgmt approval |
-| Status | In Progress |
-| Justification | Patch window requires CAB scheduling |
-| Evidence | Screenshot of patched system & ticket #
+I created this module to:
+- Reinforce what I’ve learned about POA&M structure  
+- Build confidence using tools like Excel to simulate real-world tracking  
+- Prepare for future roles in GRC, cybersecurity, and compliance
 
 ---
 
-## 🧩 Common Errors to Avoid
-
-| Mistake | Why It’s a Risk |
-|--------|-----------------|
-| Generic descriptions | Lacks traceability or understanding |
-| No milestones | No way to track progress |
-| Missing owner | No one is accountable |
-| No impact analysis | Leadership can’t prioritize |
-
-> 🛑 A weak POA&M causes audit delays, loss of credibility, and unclear remediation timelines.
-
----
-
-## 📎 Attachments to Explore
+## 📎 Practice Files
 
 - 📄 [Blank POA&M Template.xlsm](../../module5_hands_on/Blank%20POA&M%20Template.xlsm)  
 - 📄 [Mock WSUS ACAS SCAN.xlsx](../../module5_hands_on/Mock%20WSUS%20ACAS%20SCAN.xlsx)
 
-Use these in Module 5 to build and test your own entries.
+These templates and datasets helped me practice translating raw vulnerability data into structured POA&M records.
 
 ---
 
-## 🧠 Reflection Prompt
+##  Reflection Prompt
 
-> ✅ *If your POA&M was shown to a federal assessor today, would they understand the issue, who owns it, and how it’s being fixed — without asking a single question?*
+>  *Would your POA&M entry make sense to someone reading it during an audit — even if you weren’t there to explain it?*
 
-If the answer is no — it’s time to elevate your entries.
+That’s the level of clarity I aim for in every practice entry.
 
 ---
 
 ## 🏁 Summary
 
-- POA&M fields tell a story — and leaders make that story credible.
-- A strong POA&M is specific, accountable, and forward-moving.
-- This is where technical risk meets leadership execution.
+- I created this module to build hands-on understanding of POA&M structure and purpose  
+- I’ve used public guidance and practice files to simulate real POA&M work  
+- This is part of my personal learning path as I prepare for a GRC or cybersecurity role
 
 ---
 
