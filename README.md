@@ -1,4 +1,4 @@
-# 🛡️ GRC POA&M Mastery  
+#  GRC POA&M Mastery  
 ### A Deep Dive into Risk Management & Compliance Execution
 
 Welcome to **`grc-poam-mastery`** — a hands-on, leadership-driven GitHub course designed to empower professionals with the skills, templates, and frameworks to build, execute, and sustain POA&M programs across risk and compliance environments.
@@ -14,7 +14,7 @@ This project helps:
 
 ---
 
-## 📚 Course Modules
+##  Course Modules
 
 | Module | Topic |
 |--------|-------|
@@ -29,7 +29,7 @@ Each module is designed with real-world examples, leadership insight, and tools 
 
 ---
 
-## 🧪 Included Tools
+##  Included Tools
 
 - ✅ **Blank POA&M Excel Template** (.xlsm)
 - ✅ **Mock WSUS & ACAS Scan Data** (.xlsx)
@@ -60,7 +60,7 @@ This course references:
 
 ---
 
-## 🧠 For Whom?
+##  For Whom?
 
 - ✅ GRC Analysts & ISSOs
 - ✅ Cybersecurity Professionals
@@ -88,10 +88,5 @@ GRC Leader | Cybersecurity Practitioner | IT Risk Strategist
 
 ---
 
-## 📜 License
-
-MIT License — use, fork, teach, and share with attribution.
-
----
 
 > ✅ If this project helps you, star ⭐ the repo, contribute, or share with a colleague in GRC!
