@@ -1,0 +1,115 @@
+# 📅 Day 42 – Registering OpenMRS in Our System Inventory  
+_100 Days of GRC • By Ibrahim Abdullahi_
+
+---
+
+## ✅ From Invisible to Accountable: Putting OpenMRS on the Map
+
+A few years back, while helping support backend systems at a university, I stumbled on a forgotten server still in use—but undocumented, unpatched, and unsecured. That moment changed how I understood system governance. If it's not officially tracked, it's not officially protected.
+
+So today, leading the GRC design for our healthcare system built on OpenMRS, I’m ensuring we **don’t repeat that mistake**.
+
+Day 42 marks the final task of the NIST RMF *Prepare* phase:  
+👉 **System Registration** — the act of officially recording OpenMRS into our organization’s system inventory.
+
+This might sound like bureaucracy, but it’s a **foundational control** that separates shadow IT from managed infrastructure. In security, **you can’t protect what you don’t know exists**.
+
+---
+
+## 🗂️ Why Register Systems?
+
+System registration serves several critical functions:
+
+-  **Visibility** – So IT, security, and leadership know what’s in the environment  
+-  **Accountability** – Assigns an owner to every system  
+-  **Compliance** – Required by frameworks like FISMA, ISO 27001, HIPAA, etc.  
+-  **Audit Readiness** – Ensures traceability of data flows and system functions  
+-  **Security Monitoring** – Makes sure systems get scanned, logged, and patched  
+-  **Operational Planning** – Helps prioritize resources and roadmap updates  
+
+---
+
+## 🏥 OpenMRS System Registration Snapshot
+
+Here’s a conceptual registration record for our OpenMRS deployment:
+
+| **Field**                    | **Details** |
+|-----------------------------|-------------|
+| **System Name**             | MyClinic OpenMRS EHR System |
+| **System Owner**            | Dr. Alice Smith, Health IT Manager |
+| **Description**             | Cloud-based Electronic Health Record (EHR) platform deployed on AWS, supporting patient data management |
+| **Hosting Environment**     | AWS (us-west-2), EC2 instances within VPC `vpc-0abc123`, RDS for backend |
+| **Authorization Boundary**  | Includes OpenMRS app, Amazon EC2, RDS, S3 (backup), CloudWatch monitoring |
+| **Data Sensitivity**        | Protected Health Information (PHI) – HIPAA regulated |
+| **Impact Level**            | Moderate-High (based on CIA triad: Confidentiality & Availability are critical) |
+| **Compliance Requirements**| HIPAA, NIST 800-53 Moderate baseline |
+| **Connections**             | Interfaces with billing system, reporting dashboard, and authentication services |
+| **Registration Date**       | June 3, 2025 |
+| **Contacts**                | Owner: Dr. Alice Smith, Custodian: I. Abdullahi (GRC Analyst), ISSO: TBA |
+
+---
+
+## 💬 Leadership Insight
+
+In leadership, our job isn’t just to ship code or maintain systems — it’s to build **clarity and structure** around technology. This is where GRC comes in.
+
+Registering OpenMRS isn’t just about compliance; it’s about **ensuring no system falls through the cracks**. It’s how we turn an application from “a cool healthcare tool someone built” into an **official, protected, governed information asset**.
+
+When I think of system registration, I think:  
+**“Would a new hire know what this system does, where it runs, who owns it, and how secure it is?”**  
+If not, registration isn’t complete.
+
+---
+
+## ✍️ Hands-On Practice
+
+Try it yourself. Here’s a simple structure to fill out for any system:
+
+- **System Name**  
+- **Owner (Name + Title)**  
+- **Description/Purpose**  
+- **Data Sensitivity Level (e.g., PHI, PII, internal)**  
+- **Hosting Environment (AWS, Azure, on-prem, etc.)**  
+- **Compliance Drivers (HIPAA, FISMA, PCI, etc.)**  
+- **Connections to Other Systems**  
+- **Registration Date & Responsible Contacts**
+
+Even doing this for a fictional system builds the muscle of governance.
+
+---
+
+## 🧠 Reflection
+
+A well-maintained system inventory is **the backbone of risk management**. When systems are known and documented:
+
+- Incident response is faster  
+- Personnel transitions are smoother  
+- Audits are cleaner  
+- Risks are easier to identify and resolve
+
+When systems are undocumented?  
+That’s when breaches go unnoticed, and blame goes nowhere.
+
+---
+
+## 🔮 Tomorrow’s Mission
+
+🎉 We’ve officially closed out the RMF Prepare phase!  
+Up next: **Categorization** – where we analyze the potential impact of compromise on our system’s confidentiality, integrity, and availability. For healthcare systems like OpenMRS, that step carries serious weight.
+
+Let’s keep building toward a more secure, compliant, and resilient system.  
+See you on **Day 43**.
+
+---
+
+## 🔎 Further Reading
+
+- “System inventory FISMA requirements”  
+- “NIST RMF system registration best practices”  
+- “Information system asset classification”  
+- “eMASS system registration walkthrough”  
+- “HIPAA-covered system inventory management”
+
+---
+
+📌 #Day42 #GRC #NISTRMF #SystemRegistration #OpenMRS #HIPAA #SecurityGovernance #InformationSecurity #100DaysOfGRC #LeadershipByDesign #IbrahimAbdullahi
